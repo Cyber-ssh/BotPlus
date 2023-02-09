@@ -38,7 +38,7 @@ clear
 tput cup 3 1
 tput setab 7 
 tput setaf 0
-echo "                            Couty_SSH BOT  V1.1                               "
+echo "                            Cyberssh23 BOT  V1.1                               "
 tput sgr0
 echo " "
 tput cup 4 1
@@ -399,7 +399,7 @@ link_suporte(){
 
   echo "${Yellow}${Bold}[-] Digite um link de contato${Norm}${Norm}"
   echo "${Yellow}${Bold}[-] O link pode ser do telegram ou um site${Norm}${Norm}"
-  echo "${Cyan}Ex: https://t.me/Couty_SSH${Norm}"
+  echo "${Cyan}Ex: https://t.me/Cyberssh23${Norm}"
   read -p ":> " link
 
     if [[ -z $(echo $link | egrep '^https://' ) ]]
@@ -425,7 +425,7 @@ link_revenda(){
 
   echo "${Yellow}${Bold}[-] Digite um link de contato${Norm}${Norm}"
   echo "${Yellow}${Bold}[-] O link pode ser do telegram ou um site${Norm}${Norm}"
-  echo "${Cyan}Ex: https://t.me/Couty_SSH${Norm}"
+  echo "${Cyan}Ex: https://t.me/Cyberssh23${Norm}"
   read -p ":> " link
 
     if [[ -z $(echo $link | egrep '^https://' ) ]]
